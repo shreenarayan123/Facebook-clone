@@ -362,36 +362,36 @@ main .container .left-part {
 }
 
 .stories .story:nth-child(1) {
-  background-image: url(/IMAGES2/story-1.jpg);
+  background-image: url(/Facebook-clone/IMAGES2/story-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .stories .story:nth-child(2) {
-  background-image: url(/IMAGES2/story-2.jpg);
+  background-image: url(/Facebook-clone/IMAGES2/story-2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .stories .story:nth-child(3) {
-  background-image: url(/IMAGES2/story-3.jpg);
+  background-image: url(/Facebook-clone/IMAGES2/story-3.jpg);
   background-size: cover;
 }
 
 .stories .story:nth-child(4) {
-  background-image: url(/IMAGES2/story-4.jpg);
+  background-image: url(/Facebook-clone/IMAGES2/story-4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .stories .story:nth-child(5) {
-  background-image: url(/IMAGES2/story-5.jpg);
+  background-image: url(/Facebook-clone/IMAGES2/story-5.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .stories .story:nth-child(6) {
-  background-image: url(/IMAGES2/story-6.jpg);
+  background-image: url(/Facebook-clone/IMAGES2/story-6.jpg);
   background-size: cover;
   background-position: center;
 }
