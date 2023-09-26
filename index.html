@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook.com</title>
+    <!--ICONSCOUT CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/2.css">
+
+
+</head>
+
+<body>
+    <nav>
+ <div class="Theme">
+            <div class="container">
+                <h2 class="logo">Facebook
+                </h2>
+                <div class="search-bar">
+                    <i class="ri-search-line"></i>
+                    <input type="search" placeholder="Search for creators ,inspirations and trends">
+                </div>
+                <div class="Create">
+                    <label class="btn btn-primary" for="create.post">Create</label>
+                    <div class="profile-img">
+                        <img src="/Facebook-clone/IMAGES2/profile-pic.png" alt="profile-pic">
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <main>
+        <div class="container ">
+            <!--left-part-->
+            <div class="left-part">
+                <a class="profile">
+                    <div class="profile-img">
+                        <img src="/Facebook-clone/IMAGES2/profile-8.jpg" alt="profile-pic">
+                    </div>
+
+                    <div class="pro-details">
+                        <h3>Sunny..!</h3>
+                        <p>@Sunny</p>
+                    </div>
+                </a>
+                <div class="side-bar">
+                    <a class="side-items active">
+
+                        <span> <i class="ri-home-4-fill"></i> </span>
+                        <h3>Home</h3>
+
+
+
+                    </a>
+                    <a class="side-items">
+                        <span> <i class="ri-compass-line"></i></span>
+                        <h3>Explore</h3>
+
+                    </a>
+                    <a class="side-items " id="notification">
+                        <span> <i class="ri-notification-2-line"><small class="notification-count">5</small></i> </span>
+                        <h3>Notification</h3>
+
+                        <!--notification-popup-->
+                        <div class="notification-pop">
+                            <div class="noti"></div>
+                            <div class="notiupdate">
+
+                                <div class="profile-img">
+
+                                    <img src="/Facebook-clone/IMAGES2/profile-5.jpg" alt="profile-pic">
+                                </div>
+                                <div class="noti-details">
+                                    <b>DR.Doom</b> accepted your friend request
+                                    <small class="comments">34 MIN AGO</small>
+                                </div>
+                            </div>
+                            <div class="notiupdate">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-2.jpg" alt="profile-pic">
+                                </div>
+                                <div class="noti-details">
+                                    <b>Peter Parker</b> Liked your post
+                                    <small class="comments">3 MIN AGO</small>
+                                </div>
+                            </div>
+
+                            <div class="notiupdate">
+
+                                <div class="profile-img">
+
+                                    <img src="/Facebook-clone/IMAGES2/profile-3.jpg" alt="profile-pic">
+                                </div>
+                                <div class="noti-details">
+                                    <b>Batman</b> Commented on your post
+                                    <small class="comments">1 MIN AGO</small>
+                                </div>
+                            </div>
+                            <div class="notiupdate">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-4.jpg" alt="profile-pic">
+                                </div>
+                                <div class="noti-details">
+                                    <b>Thanos</b> Has a new post to share with you
+                                    <small class="comments">THURS AT 9:57PM</small>
+                                </div>
+                            </div>
+
+                            <div class="notiupdate">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-1.jpg" alt="profile-pic">
+                                </div>
+                                <div class="noti-details">
+                                    <b>ULtron</b> Shared a link
+                                    <small class="comments">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div class="notiupdate">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-6.jpg" alt="profile-pic">
+                                </div>
+                                <div class="noti-details">
+                                    <b>Bluebeetle</b> sent  you a friend request
+                                    <small class="comments">YESTERDAY AT 8:38PM</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="side-items message">
+                        <span> <i class="ri-mail-line"><small class="notification-count"> 6</small></i> </span>
+                        <h3>Message</h3>
+
+                    </a>
+                    <a class="side-items">
+                        <span> <i class="ri-bookmark-line"></i></span>
+                        <h3>Bookmarks </h3>
+
+
+                    </a>
+                    <a class="side-items ">
+                        <span> <i class="ri-line-chart-line"></i></span>
+                        <h3>Analytics</h3>
+
+                    </a>
+                    <a class="side-items theme">
+                        <span> <i class="ri-palette-line"></i></span>
+                        <h3>Theme</h3>
+
+                    </a>
+                    <a class="side-items">
+                        <span> <i class="ri-settings-4-line"></i></span>
+                        <h3>Settings</h3>
+                    </a>
+                </div>
+                <!--side-btn-->
+                <div class="Create">
+                    <label class="btn btn-primary" for="create.post">Create Post</label>
+                </div>
+            </div>
+            <!--right-part-->
+            <div class="Main-home">
+                <div class="stories">
+                    <div class="story ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-8.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-9.jpg" alt="">
+                        </div>
+                        <p class="name">Tony Stark</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-10.jpg" alt="">
+                        </div>
+                        <p class="name">Steve Roggers</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-11.jpg" alt="">
+                        </div>
+                        <p class="name">The Hulk</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-12.jpg" alt="">
+                        </div>
+                        <p class="name">Natasha Romanoff</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-13.jpg" alt="">
+                        </div>
+                     <p class="name">Bruce Banner</p>
+                    </div>
+                </div>
+                <div class="Creat-post">
+
+
+                    <div class="profile-img">
+                        <img src="/Facebook-clone/IMAGES2/profile-8.jpg" alt="profile-pic">
+                    </div>
+
+
+                    <input type="text" placeholder="What's on your mind Sunny ..">
+
+                    <label class="btn btn-primary" for="create.post">Post</label>
+
+
+                </div>
+                <div class="posts">
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-2.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>Peter parker</h3>
+                                        <small> NEWYORKCITY 2 DAYS AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-1.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles">
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-9.jpg" alt="9"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-10.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-11.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-12.jpg" alt="10"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>Bucky bernard</b> , <b>The falcon</b> and <b>2,347 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>Peter parker</b> Kindness is Free, Sprinkle that Stuff Everywhere.
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #Holiday #facebooking #facebook</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 715 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-3.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>T'Challa</h3>
+                                        <small> NEWYORKCITY 7 DAYS AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-2.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles">
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-4.jpg" alt="9"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-7.jpg" alt="16"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-18.jpg" alt="15"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-8.jpg" alt="14"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>Ghost rider</b> , <b>Dr.strange</b> and <b>247 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>T'Challa</b> Stress less and enjoy the best..!
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #Fb #Talktome #Likesreturned</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 423 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-4.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>Scott Lang</h3>
+                                        <small> NEWYORKCITY 4 DAYS AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-3.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles">
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-3.jpg" alt="9"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-6.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-20.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-13.jpg" alt="10"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>Mark spector</b> , <b>The falcon</b> and <b>1347 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>Scott Lang</b> In the river of sun.....was a pituresque holiday
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #Holiday #Flowers #Like4like</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 425 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-5.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>Wanda maxioff</h3>
+                                        <small> NEWYORKCITY 4 DAYS AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-4.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles">
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-9.jpg" alt="9"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-10.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-11.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-12.jpg" alt="10"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>Bucky bernard</b> , <b>The Vision</b> and <b>2,047 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>Peter parker</b> Remember that happiness is a way of travel – not a destination.
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #FbPost #Followformore #F4f</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 225 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-6.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>Deadpool</h3>
+                                        <small> NEWYORKCITY 34 MIN AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-5.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles">
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-11.jpg" alt="9"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-13.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-14.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-15.jpg" alt="10"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>Death Stroke</b> , <b>The wasp</b> and <b>2,307 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>Deadpool</b> Get out there and live a little..
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #Boring #Facebooking #Followme</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 405 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-7.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>Wonder Woman</h3>
+                                        <small> NEWYORKCITY 5 DAYS AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-6.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles">
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-3.jpg" alt="9"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-17.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-14.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-18.jpg" alt="10"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>The Clint</b> , <b>She hulk</b> and <b>2,347 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>Wonder woman</b> I’m always thinking one step ahead, like a carpenter that makes stairs.
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #Morelike #Officeday #Newoffice</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 415 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="post">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-img">
+                                    <img src="/Facebook-clone/IMAGES2/profile-8.jpg" alt="profile-pic">
+                                </div>
+                                <div class="pro-details">
+                                    <span>
+                                        <h3>Hawkeye</h3>
+                                        <small> NEWYORKCITY 2 MIN AGO</small>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="more">
+                                <i class="ri-more-fill"></i>
+                            </div>
+                        </div>
+                        <div class="feed-1">
+                            <img src="/Facebook-clone/IMAGES2/feed-7.jpg" alt="feed-1">
+                        </div>
+                        <div class="post-actions">
+                            <div class="actions">
+                                <i class="ri-heart-line"></i>
+                                <i class="ri-chat-3-line"></i>
+                                <i class="ri-send-plane-line"></i>
+                            </div>
+                            <div class="bookmark">
+                                <i class="ri-bookmark-line"></i>
+                            </div>
+                        </div>
+                        <div class="muted-text">
+                            <div class="Liked">
+
+                                <div class="profiles"></span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-4.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-5.jpg" alt="10"> </span>
+                                    <span> <img src="/Facebook-clone/IMAGES2/profile-7.jpg" alt="10"> </span>
+
+                                    <span> <img src="/Facebook-clone/IMAGES2/feed-1.jpg" alt="10"> </span>
+
+                                </div>
+                                <div class="likedby">
+                                    <p>Liked by <b>Loki</b> , <b>War machine</b> and <b>247 others</b></p>
+                                </div>
+                            </div>
+                            <div class="caption">
+                                <p><b>Hawkeye</b> I normally don’t enjoy making people laugh.
+                                </p>
+                                <p style="color: rgb(0, 149, 255);"> #office #goal #Fb</p>
+
+                            </div>
+                            <div class="comments" style="color: gray;">
+                                View all 425 comments
+                            </div>
+                            <div class="add">
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+            <!--Right-part-->
+            <div class="Right-part">
+                <div class="messages" id="mssg-popup">
+                    <div class="msg">
+                        <h4>Messages</h4>
+                        <i class="ri-edit-2-line"></i>
+                    </div>
+                    <div class="search-message">
+                        <i class="ri-search-line"></i>
+                        <input type="search" placeholder="Search messages" id="message-search">
+                    </div>
+                    <div class="message-type">
+                        <h5 class="primary">Primary</h5>
+                        <h5>General</h5>
+                        <h5>Requests(7)</h5>
+                    </div>
+                    <div class=" message ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-5.jpg" alt="profile-pic">
+                        </div>
+                        <div class="pro-name ">
+                            <h5>Silver surfer</h5>
+                            <small>nice to see you...in the team back</small>
+                        </div>
+                    </div>
+                    <div class=" message ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-19.jpg" alt="profile-pic">
+                        </div>
+                        <div class="pro-name">
+                            <h5>Kang theconqeror</h5>
+                            <small>yeeeeah..!</small>
+                        </div>
+                    </div>
+                    <div class=" message ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-15.jpg" alt="profile-pic">
+                        </div>
+                        <div class="pro-name">
+                            <h5>Steve rogers</h5>
+                            <small>hey you there..</small>
+                        </div>
+                    </div>
+                    <div class=" message  ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-14.jpg" alt="profile-pic"  >
+                        </div>
+                        <div class="pro-name">
+                            <h5>Tony stark</h5>
+                            <small>Just woke up bruh..</small>
+                        </div>
+                    </div>
+                    <div class=" message ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-20.jpg" alt="profile-pic">
+                        </div>
+                        <div class="pro-name">
+                            <h5>Bruce Banner</h5>
+                            <small>Recieved bruh.thanks..!</small>
+                        </div>
+                    </div>
+                    <div class=" message ">
+                        <div class="profile-img">
+                            <img src="/Facebook-clone/IMAGES2/profile-16.jpg" alt="profile-pic">
+                        </div>
+                        <div class="pro-name">
+                            <h5>The Flash</h5>
+                            <small>2 New Messages</small>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="req-profile">
+                            <div class="profile-img">
+                                <img src="/Facebook-clone/IMAGES2/profile-18.jpg" alt="profile-pic">
+                            </div>
+                            <div class="req-pro-details">
+                                <h5>Blackpanther</h5>
+                                <small>6 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="req-action">
+                            <label class="btn btn-primary" for="acceptance">Accept</label>
+                            <label class="btn btn-primary" for="rejection">Reject</label>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="req-profile">
+                            <div class="profile-img">
+                                <img src="/Facebook-clone/IMAGES2/profile-12.jpg" alt="profile-pic">
+                            </div>
+                            <div class="req-pro-details">
+                                <h5>Ms.marvel</h5>
+                                <small>1 mutual friend</small>
+                            </div>
+                        </div>
+                        <div class="req-action">
+                            <label class="btn btn-primary" for="acceptance">Accept</label>
+                            <label class="btn btn-primary" for="rejection">Reject</label>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="req-profile">
+                            <div class="profile-img">
+                                <img src="/Facebook-clone/IMAGES2/profile-11.jpg" alt="profile-pic">
+                            </div>
+                            <div class="req-pro-details">
+                                <h5>Superman</h5>
+                                <small>12 mutual friends</small>
+                            </div>
+                        </div>
+                        <div class="req-action">
+                            <label class="btn btn-primary" for="acceptance">Accept</label>
+                            <label class="btn btn-primary" for="rejection">Reject</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<div class="Custom ">
+    <div class="Customization">
+        <div class="heading">
+            <h2>Customize your view</h2>
+            <p>Manage your font size, color, and background</p>
+        </div>
+        <div class="fontsize">
+            Font size
+            <div class="font-size">
+                <h5>Aa</h5>
+                <div class="sizing">
+                    <span class="fonts-1"></span>
+                    <span class="fonts-2 active"></span>
+                    <span class="fonts-3"></span>
+                    <span class="fonts-4"></span>
+                    <span class="fonts-5"></span>
+
+                </div>
+                <h2>Aa</h2>
+            </div>
+        </div>
+        <div class="Color">Color
+            <div class="colors">
+                <span class="color YELLOW " id="YELLOW" style="background-color: yellow;"></span>
+                <span class="color PURPLE active"id="PURPLE" style="background-color: purple;"></span>
+                <span class="color RED" id="RED" style="background-color: red;"></span>
+                <span class="color GREEN" id="GREEN" style="background-color: green;"></span>
+                <span class="color SKY-BLUE" id="SKY-BLUE" style="background-color: skyblue;"></span>
+            </div>
+        </div>
+        <div class="Background">Background
+            <div class="backgrounds">
+                <span class="light " style="background-color: white; color: black;">
+                    <div class="bg-1 active "></div> Light
+                </span>
+
+                <span class="Dim" style="background-color: rgb(27, 23, 23); color: white;">
+                    <div class="bg-2"></div> Dim
+                </span>
+                <span class="Lights-out" style="background-color: black; color: white;">
+                    <div class="bg-3"></div> Lights out
+                </span>
+            </div>
+        </div>
+    </div>
+</div>    
+
+
+    <script src="/2.js"></script>
+</body>
+
+</html>
